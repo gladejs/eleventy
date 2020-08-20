@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/gladejs/eleventy/compare/v0.1.0...v0.2.0) (2020-08-20)
+
+
+### Features
+
+* **11ty:** improve Eleventy's integration & config ([a9512b4](https://github.com/gladejs/eleventy/commit/a9512b47d4093d755520111ee8af483c5d6e4729))
+
 # [0.1.0](https://github.com/gladejs/eleventy/compare/v0.0.1...v0.1.0) (2020-08-06)
 
 
