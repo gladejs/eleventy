@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/gladejs/eleventy/compare/v0.2.0...v0.3.0) (2020-08-28)
+
+
+### Features
+
+* **live:** support Rollup Live mode ( "--watch" ) ([66546bd](https://github.com/gladejs/eleventy/commit/66546bdf12e17dd3bc14a0de635988781d59235e))
+
 # [0.2.0](https://github.com/gladejs/eleventy/compare/v0.1.0...v0.2.0) (2020-08-20)
 
 
