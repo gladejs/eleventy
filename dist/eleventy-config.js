@@ -1,13 +1,13 @@
 'use strict'
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setDataDeepMerge(true)
+    eleventyConfig.setDataDeepMerge(true)
 
-  return {
-    dir: {
-      data: '../datastores',
-      layouts: '../layouts',
-      includes: '../includes'
+    return {
+        dir: {
+            data: '../datastores',
+            layouts: '../layouts',
+            includes: '../includes',
+        },
     }
-  }
 }
