@@ -33,15 +33,16 @@ function eleventyPromise(input, output, eleventy) {
         const templates = eleventy.eleventyFiles.getGlobWatcherFiles()
         const dataFiles = eleventy.eleventyFiles.getGlobWatcherTemplateDataFiles()
 
-        const writing = isLive ? eleventy.watch() : eleventy.write()
+        const eleventing = isLive ? eleventy.watch() : eleventy.write()
+
+        /* eslint-disable promise/no-nesting */
+        const writing = eleventing.then(() => renameHTMLFiles(output))
         const copying = dataFiles.then((watchList) =>
             copyUn11tyFiles(input, output, watchList.concat(templates))
         )
+        /* eslint-enable promise/no-nesting */
 
-        return Promise.all([
-            copying,
-            writing.then(() => renameHTMLFiles(output)),
-        ])
+        return Promise.all([copying, writing])
     })
 }
 
@@ -64,8 +65,8 @@ function copyUn11tyFiles(rootDir, destDir, watchList) {
             const options = { ignoreInitial: true, ignored: watchList }
             const watcher = require('chokidar').watch(rootDir, options)
 
-            watcher.on('add', copy).on('change', copy)
-        }
+            return watcher.on('add', copy).on('change', copy)
+        } else return undefined
     })
 }
 
@@ -87,7 +88,7 @@ function renameHTMLFiles(rootDir) {
                 ignoreInitial: true,
             })
 
-            watcher.on('add', move).on('change', move)
-        }
+            return watcher.on('add', move).on('change', move)
+        } else return undefined
     })
 }
