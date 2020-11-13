@@ -9,4 +9,4 @@
 
 This is the [GladeJS](https://github.com/gladejs/gladejs) Module adding support for [Eleventy](https://www.11ty.dev), move along.
 
-This is _not_ the Rollup plugin you're looking for (it's GladeJS specific).
+This is _not_ the Rollup plugin you're looking for (it's GladeJS specific). 😐
