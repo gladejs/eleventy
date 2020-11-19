@@ -16,6 +16,7 @@
     <a href="https://github.com/semantic-release/semantic-release">
         <img alt="Semantic Release" src="https://badgen.net/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80/semantic-release/e10079">
     </a>
+    &nbsp;
 </p>
 
 <p>
@@ -34,6 +35,7 @@
     <a href="https://github.com/gladejs/eleventy/commits/next">
         <img alt="Latest Commits" src="https://badgen.net/github/last-commit/gladejs/eleventy/next">
     </a>
+    &nbsp;
 </p>
 
 ## Description
