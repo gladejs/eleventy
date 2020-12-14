@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/gladejs/eleventy/compare/v0.3.1...v0.3.2) (2020-12-14)
+
+
+### Bug Fixes
+
+* **deps:** refresh dependencies & force a release ([33ee88f](https://github.com/gladejs/eleventy/commit/33ee88f0a1f98fec94373634de332bb14d8bc29e))
+
 ## [0.3.1](https://github.com/gladejs/eleventy/compare/v0.3.0...v0.3.1) (2020-10-04)
 
 
