@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/gladejs/eleventy/compare/v0.3.2...v0.3.3) (2020-12-17)
+
+
+### Bug Fixes
+
+* **windows:** 11ty wants paths in posix on Windows ([1bd8551](https://github.com/gladejs/eleventy/commit/1bd85510034a29804f83faa92c8199f9235ca546))
+
 ## [0.3.2](https://github.com/gladejs/eleventy/compare/v0.3.1...v0.3.2) (2020-12-14)
 
 
