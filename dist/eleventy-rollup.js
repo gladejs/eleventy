@@ -4,11 +4,16 @@ const path = require('path')
 const fs = require('fs-extra')
 const glob = require('glob')
 
-const Eleventy = require('@11ty/eleventy/src/Eleventy')
+const normalize = require('normalize-path')
 const isLive = process.env.ROLLUP_WATCH === 'true'
+const Eleventy = require('@11ty/eleventy/src/Eleventy')
 
 module.exports = function (input, output) {
     let eleventy = false
+
+    // Eleventy doesn't like win32 paths even on Windows.
+    input = normalize(input).replace(/^([a-zA-Z]+:)/, '')
+    output = normalize(output).replace(/^([a-zA-Z]+:)/, '')
 
     return {
         name: 'eleventy',
