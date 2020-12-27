@@ -1,4 +1,4 @@
-# GladeJS Eleventy Module
+# GladeJS Eleventy Module ([Moved to GladeJS](https://github.com/gladejs/gladejs))
 
 <p>
     <a href="https://www.npmjs.com/package/@gladejs/eleventy" rel="nofollow">
