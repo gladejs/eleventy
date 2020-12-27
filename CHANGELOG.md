@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/gladejs/eleventy/compare/v0.3.3...v0.4.0) (2020-12-27)
+
+
+### Features
+
+* **deps:** last dependencies bump before archiving ([5a9c329](https://github.com/gladejs/eleventy/commit/5a9c3297dbc066875d214ab35c48332d7ffe20a5))
+
 ## [0.3.3](https://github.com/gladejs/eleventy/compare/v0.3.2...v0.3.3) (2020-12-17)
 
 
