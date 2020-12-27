@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/gladejs/eleventy/compare/v0.4.0...v0.5.0) (2020-12-27)
+
+
+### Features
+
+* **build:** archive & move to the GladeJS monorepo ([72e4d1d](https://github.com/gladejs/eleventy/commit/72e4d1d4e60ba0608d714f14edd08a3789d51e82))
+
 # [0.4.0](https://github.com/gladejs/eleventy/compare/v0.3.3...v0.4.0) (2020-12-27)
 
 
